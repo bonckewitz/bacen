@@ -1,0 +1,14 @@
+name: 'bacen'
+version: '1.0'
+config-version: 2
+
+profile: bacen
+
+# Diretório onde os modelos (SQL) serão salvos
+model-paths: ["models"]
+
+models:
+  bacen:
+    +materialized: view 
+    marts:
+      +materialized: view  

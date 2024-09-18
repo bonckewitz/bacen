@@ -1,0 +1,31 @@
+version: 2
+
+sources:
+  - name: bacen
+    tables:
+    - name: 'nfsp_pib_setor_publico_mes'
+    - name: 'nfsp_pib_setor_publico_ano'
+    - name: 'divida_liquida_pib_setor_publico'
+    - name: 'taxa_de_cambio_euro'
+    - name: 'taxa_de_cambio_libra'
+    - name: 'taxa_de_cambio_dolar'
+    - name: 'selic_anualizada'
+    - name: 'selic_meta'
+    - name: 'igpm_mes'
+    - name: 'meta_inflacao'
+    - name: 'carteira_de_credito'
+    - name: 'carteira_de_credito_pj'
+    - name: 'carteira_de_credito_pf'
+    - name: 'concessao_de_credito'
+    - name: 'concessao_de_credito_pj'
+    - name: 'concessao_de_credito_pf'
+    - name: 'endividamento_familias'
+    - name: 'endividamento_familias_s_habitacional'
+    - name: 'confianca_consumidor'
+    - name: 'confianca_industrial'
+    - name: 'confianca_servicos'
+    - name: 'energia_comercial'
+    - name: 'energia_residencial'
+    - name: 'energia_industrial'
+    - name: 'energia_outros'
+    - name: 'energia_total'

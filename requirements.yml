@@ -1,0 +1,16 @@
+name: etl-bacen
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - dbt-core
+  - python-dotenv
+  - pip
+  - pyodbc
+  - requests
+  - SQLAlchemy
+  - pip:
+    - dbt-sqlserver
